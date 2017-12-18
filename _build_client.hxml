@@ -1,0 +1,23 @@
+# Libraries you like to use (http://lib.haxe.org/)
+-lib js-kit
+-lib hxnodejs
+-lib msignal
+-lib electron
+
+# template file
+-resource src/assets/bootstrap.mtt@bootstrap
+
+# Integrate files to classpath
+-cp src
+
+# default values
+-D source-map-content
+-D state=debug
+-debug
+-dce full
+
+# This class wil be used as entry point for your app.
+-main MainClient
+-js bin/public/js/client.js
+-D hxnodejs_no_version_warning
+
