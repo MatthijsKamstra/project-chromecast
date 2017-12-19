@@ -13,8 +13,8 @@ npm-debug.log*
 node_modules
 
 # Haxe export folder
+# bin
 _build
-bin
 bin_test
 bin_release
 
