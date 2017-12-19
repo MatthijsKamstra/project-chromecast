@@ -19,7 +19,8 @@
 --each
 
 # This class wil be used as entry point for your app.
--main MainServer
+# -main MainServer
+-main Main
 -js bin/server.js
 -dce full
 
@@ -32,6 +33,8 @@
 
 --next
 
+-main MainElectron
 -lib electron
 -js bin/main.js
--main Main
+
+

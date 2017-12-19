@@ -8,9 +8,9 @@ import haxe.Constraints.Function;
 
 class MainMenu {
 
-	private var main : Main;
+	private var main : MainElectron;
 
-	public function new (main:Main) {
+	public function new (main:MainElectron) {
 
 		this.main = main;
 

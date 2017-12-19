@@ -7,7 +7,8 @@
 -cp src
 
 # This class wil be used as entry point for your app.
--main MainServer
+# -main MainServer
+-main Main
 
 # JavaScript target
 -js bin/server.js

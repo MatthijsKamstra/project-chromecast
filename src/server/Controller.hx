@@ -17,7 +17,7 @@ class Controller {
 	public static function latest(req:Request,res:Response) {
 		var _url = Node.__dirname +  '/_config/config.json';
 		var config = haxe.Json.stringify(
-			{"date":""}
+			{"date":Date.now()}
 		);
 		if(sys.FileSystem.exists(_url)){
 			config = Fs.readFileSync(_url, "utf8");

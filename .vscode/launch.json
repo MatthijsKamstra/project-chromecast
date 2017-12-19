@@ -7,6 +7,14 @@
 		{
 			"type": "node",
 			"request": "launch",
+			"name": "Electron Main",
+			"runtimeExecutable": "${workspaceFolder}/bin/node_modules/.bin/electron",
+			"program": "${workspaceFolder}/bin/main.js",
+			"protocol": "inspector"
+		},
+		{
+			"type": "node",
+			"request": "launch",
 			"name": "Launch Chrome",
 			"program": "${workspaceFolder}/bin/chrome.js"
 		},

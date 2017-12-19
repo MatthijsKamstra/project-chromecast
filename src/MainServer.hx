@@ -57,7 +57,7 @@ class MainServer {
 
 	}
 
-	static public function main () {
-		new MainServer ();
-	}
+	// static public function main () {
+	// 	new MainServer ();
+	// }
 }

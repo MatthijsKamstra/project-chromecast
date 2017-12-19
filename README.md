@@ -140,3 +140,9 @@ npm run package
 ```
 
 And in the folder `/download` you will have a mac only build (guess that more OS is unnessary)
+
+
+
+### delete
+
+https://github.com/wonderunit/storyboarder/issues/735
